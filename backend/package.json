@@ -1,0 +1,31 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a lesson for intro to backend",
+  "keywords": [
+    "backend",
+    "intro"
+  ],
+  "type": "module",
+  "homepage": "https://github.com/dhruvJolly-3/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/dhruvJolly-3/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruvJolly-3/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Dhruv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.1",
+    "nodemon": "^3.1.14"
+  }
+}

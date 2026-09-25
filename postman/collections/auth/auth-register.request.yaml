@@ -1,0 +1,24 @@
+$kind: http-request
+name: auth/register
+description: ""
+url: http://localhost:4000/api/v1/users/register
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "username": "Dhruv",
+        "email": "test@gmail.com",
+        "password": "1sjdsbff"
+    }
+settings:
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+  disabledSystemHeaders:
+    - user-agent
+    - accept
+    - accept-encoding
+    - connection
+  maxResponseSize: 52428800
+order: 887411372458786
