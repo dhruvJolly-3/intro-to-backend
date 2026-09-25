@@ -1,0 +1,14 @@
+$kind: http-request
+name: posts/create
+description: ""
+url: http://localhost:4000/api/v1/posts/create
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "first post",
+        "description": "hello",
+        "age": 25
+    }
+order: 3000
